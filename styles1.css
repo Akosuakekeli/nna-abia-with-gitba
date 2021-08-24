@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding: 0; box-sizing: border-box; }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+}
+
+.highlight{ color: #3079ed; }
+
+header{
+    width: 100%; height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+      								  rgba(0,0,0,0.7)),
+      								  url('/5.jpeg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+header nav .logo{
+    text-transform: uppercase; color: #3079ed;
+}
+
+header nav ul{
+    display: flex; list-style: none;
+}
+
+header nav ul li{ margin-left: 30px; }
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+header nav ul li a.active, header nav ul li a:hover{ 
+    color: #3079ed; 
+}
+
+.intro-content{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.intro-content h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.intro-content .btn{
+    margin-top: 15px;
+    padding: 15px 40px;
+    font-size: 14px;
+    border: none;
+    background-color: #3079ed;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.intro-content .btn:hover{
+    color: #3079ed;
+    background-color: #fff;
+}
+
+.random-section{
+    padding: 60px 0;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+}
+/*-------Footer--------*/
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.icons .fa{
+    color: rgb(48, 38, 38);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    
+}
+.fa fa-heart-o{
+    color: rgb(48, 38, 38);
+
+}
+/* .gallery{
+    background-color: #8d8a8a;
+}
+
+h6{
+ 	  color: rgb(255, 255, 255); 
+ 	  text-align: center;
+ 	  text-transform: uppercase;
+ 	  font-family: 'Century Gothic';
+      font-size: 40px;
+ 	  margin: 30px 0;
+ 	  font-weight: bolder;
+}
+.img-grid{
+ 	  display: flex;
+ 	  justify-content: center;
+ 	  align-items: center;
+ 	  flex-wrap: wrap;
+}
+
+.grid-item{
+ 		width: 300px; max-height: 200px;
+ 		margin: 0 20px 20px;
+ 		cursor: pointer;
+ 		overflow: hidden;
+ 		transition: all 0.3s;
+}
+
+img{
+ 		display: block;
+ 		max-width: 100%;
+ 		transition: all 0.3s;
+}
+
+.grid-item:hover{
+ 		outline: 5px solid white;
+ 		outline-offset: 5px;
+}
+
+.grid-item:hover img{ transform:scale(1.2); } */
+
